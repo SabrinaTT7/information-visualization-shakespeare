@@ -1,12 +1,10 @@
-# Project 5
+# Shakespeare Visualization,
 
-_Replace the following with your reflection_
+_The following is part of a project I made for my information visualization class_
 
 ### Description
 
-What are you visualizing? How do we interact with it?
-
-I am visualizing the number of lines per play in all of Shakespeare's plays and then the breakdowns of lines per character. Since the scale is off and most of the choices I made for this visualization are aesthetics, this is (hopefully) more along the lines of visualization art. While you can read names of plays and characters from the tooltips, the best and primary way to interact is by hitting the randomize button, which will randomize the order of both the list of plays and the list of characters, therefore continually presenting the same information in hundreds of different aesthetic ways.
+I am visualizing the number of lines per play in all of Shakespeare's plays and then the breakdowns of lines per character. Since the scale is off and most of the choices I made for this visualization are aesthetics, this is more along the lines of visualization art. While you can read names of plays and characters from the tooltips, the best and primary way to interact is by hitting the randomize button, which will randomize the order of both the list of plays and the list of characters, therefore continually presenting the same information in hundreds of different aesthetic ways.
 
 ### Design Rationale
 
@@ -24,22 +22,12 @@ I am visualizing the number of lines per play in all of Shakespeare's plays and 
 
 ### Overall process
 
-
-Here are my two obaservable notebooks (one is just a fork/earlier version of the other):
-https://observablehq.com/d/6fb56b38addb4558
-https://observablehq.com/d/7706151d1db8390b
-
-At the top is some quick visualizations I did to get a sense of the data right as I started to dive in. I then switched to paper planning and drew the following image. 
+As part of the process, I drew the following image. My idea progressed since then, and a couple of changes were made along the way. 
 
 
 ![visualization_sketch](IMG_5509.JPG)
 
-I started to build that out, but made a couple of changes along the way. I got rid of the tiny vertical lines partly because they were difficult to implement and partly because they seemed to be not worth it for the information or aesthetic they provided.
+I got rid of the tiny vertical lines partly because they were difficult to implement and partly because they seemed to be not worth it for the information or aesthetic they provided.
 
 Instead, I developed an interaction that reorders everything on the page. I really liked this interaction! Which I will talk more about in a second. I also added the book glyphs which I think are cute and made intuitive sense as a next step to me from looking at where I was. 
 
-### Critique
-
-Your critique of the work. Tell me what works well and why. Tell me what you are less happy with. Describe any problems you encountered that you couldn't figure out how to overcome and places where you made compromises to your vision. 
-
-I think the random interaction works well. It allows the user to become part of the art making experience, and also allows some "exploration" (not in the typical sense we have talked about perhaps). It also works well since it reloads the animation which I think is one of the most aesthetically pleasing parts of the visualization. I wish that there were a way to manually drag things around for another level of interaction, but it wasn't feasible with my current implementation. I ran into a couples problems that I couldn't get around by myself: figuring out the stacks, I used a hackier method which I am not as happy with since ideally I would be doing everything the d3 way, and the little lines that are in my original sketch. The second one doesn't bother me as much he visualization may be better off without it, but it was still frustrating for me to not be able to implement something I had originally set out to do (and the elements were showing up in inspection, just not on the page, which made it extra frustrating)
