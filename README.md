@@ -2,6 +2,8 @@
 
 _The following is part of a project I made for my information visualization class_
 
+Link to site: https://sabrinatt7.github.io/information-visualization-shakespeare/
+
 ### Description
 
 I am visualizing the number of lines per play in all of Shakespeare's plays and then the breakdowns of lines per character. Since the scale is off and most of the choices I made for this visualization are aesthetics, this is more along the lines of visualization art. While you can read names of plays and characters from the tooltips, the best and primary way to interact is by hitting the randomize button, which will randomize the order of both the list of plays and the list of characters, therefore continually presenting the same information in hundreds of different aesthetic ways.
